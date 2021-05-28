@@ -1,6 +1,6 @@
 <template>
 <div class="listcontainer">
- <ul id="list-1">
+     <ul id="list-1">
         <li :key= "index" 
             v-for="(name, index) in listDisplay"
             @click="$emit('itemselect', index)" >

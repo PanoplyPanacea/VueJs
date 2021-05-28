@@ -23,7 +23,7 @@ export default {
         itemSelect(name){
           console.log(name)
           this.text=name
-          this.showDropdownList = !this.showDropdownList
+          this.showDropdownList = false;
         },
         openList(){
           this.showDropdownList =  true;

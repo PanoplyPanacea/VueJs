@@ -47,6 +47,8 @@ export default{
         console.log(list)
         this.listDisplay = list.display;
         this.listValue = list.value;
+        const data = this.listDisplay[0]+" ("+this.listValue[0] +")"
+        this.$emit('itemselect', data)
     }
     
 
