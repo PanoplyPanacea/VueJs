@@ -1,0 +1,6 @@
+{
+    "list":{
+        "display":["Ant", "Cat", "Dog", "Owl", "Lion", "Whale"],
+        "value":["Inscect", "Mammal", "Mammal", "Bird", "Mammal", "Mammal"]
+    }
+}
